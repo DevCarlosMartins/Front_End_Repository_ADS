@@ -18,7 +18,7 @@ body{
     padding: 0px 32px;
     font-family: 'EB Garamond', sans-serif;
     color: #a5b1a5;
-    background-color: #1e2497;   
+    background-color: #6a70df;   
 }
 
 .nav button{
@@ -99,9 +99,31 @@ body{
     transform: scale(1.1); /* Aumenta a imagem ao passar o mouse */
 }
 
-.skills {
+
+.Sobre {
     text-align: center;
     padding: 50px 20px;
+    background-color: #d3d0d0; /* Cor de fundo suave */
+    color: #333; /* Cor do texto */
+    font-family: 'EB Garamond', sans-serif;
+}
+
+.Sobre h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #4e54c8; /* Destaque para o título */
+}
+
+.Sobre p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+}   
+
+.skills {
+    text-align: center;
+    padding: 40px 20px;
     background-color: #f9f9f9;
 }
 
@@ -124,6 +146,62 @@ body{
 .skill p {
     margin-top: 10px;
     font-size: 1rem;
+}
+
+.Contato {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #f9f9f9;
+    color: #333;
+    font-family: 'EB Garamond', sans-serif;
+}
+
+.Contato h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #4e54c8;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+label {
+    font-size: 1rem;
+    margin-bottom: 5px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: white;
+    background-color: #4e54c8;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #3b3f9f;
 }
 
 .footer {
